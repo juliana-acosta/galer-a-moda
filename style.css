@@ -1,0 +1,61 @@
+h1{
+    color: rgb(255, 255, 255);
+}
+.grupos{
+width: 250px;
+margin: 15px;
+background-color: rgb(255, 255, 255);
+padding: 10px;
+}
+.fotos{
+    width: 250px;
+    height: 250px;
+}
+section{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+}
+body{
+    background-color: black;
+}
+.f1{
+    background-image: url(imagen1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.f2{
+    background-image: url(imagen2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.f3{
+    background-image: url(imagen3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.f4{
+    background-image: url(imagen4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+h1{
+ font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  text-align: center;
+}
+footer{
+color: rgb(255, 255, 255);
+text-align: center;
+background-color: rgba(255, 228, 196, 0.493);
+}
+.grupos{
+background-color: rgb(255, 255, 255);
+}
+.grupos:hover{
+    background-color: aqua;
+    transition: 3s;
+    font-size: 40px;
+}
